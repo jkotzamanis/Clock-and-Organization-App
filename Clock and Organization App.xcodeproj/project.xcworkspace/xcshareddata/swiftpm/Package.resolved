@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "navigationkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rebeloper/NavigationKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9fc0dea7c57c6671c087f23361d7fe3493ffaa1c"
+      }
+    }
+  ],
+  "version" : 2
+}

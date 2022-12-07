@@ -16,6 +16,7 @@
 		3E7B236E2906D80100CDE2FF /* Clock_and_Organization_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B236D2906D80100CDE2FF /* Clock_and_Organization_AppTests.swift */; };
 		3E7B23782906D80100CDE2FF /* Clock_and_Organization_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B23772906D80100CDE2FF /* Clock_and_Organization_AppUITests.swift */; };
 		3E7B237A2906D80100CDE2FF /* Clock_and_Organization_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B23792906D80100CDE2FF /* Clock_and_Organization_AppUITestsLaunchTests.swift */; };
+		844EB6812940ECDA0062EF32 /* NavigationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 844EB6802940ECDA0062EF32 /* NavigationKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844EB6812940ECDA0062EF32 /* NavigationKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = "Clock and Organization App";
+			packageProductDependencies = (
+				844EB6802940ECDA0062EF32 /* NavigationKit */,
+			);
 			productName = "Clock and Organization App";
 			productReference = 3E7B23532906D80000CDE2FF /* Clock and Organization App.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 3E7B234A2906D80000CDE2FF;
+			packageReferences = (
+				844EB67F2940ECDA0062EF32 /* XCRemoteSwiftPackageReference "NavigationKit" */,
+			);
 			productRefGroup = 3E7B23542906D80000CDE2FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +610,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		844EB67F2940ECDA0062EF32 /* XCRemoteSwiftPackageReference "NavigationKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rebeloper/NavigationKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		844EB6802940ECDA0062EF32 /* NavigationKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 844EB67F2940ECDA0062EF32 /* XCRemoteSwiftPackageReference "NavigationKit" */;
+			productName = NavigationKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3E7B234B2906D80000CDE2FF /* Project object */;
 }
